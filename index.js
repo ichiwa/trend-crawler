@@ -18,9 +18,9 @@ server.register(require('vision'), function (err) {
   });
 });
 
-// global objecs
-server.app = {}
-server.app.sequelize = require('./models');
+// // global objecs
+// server.app = {}
+// server.app.sequelize = require('./models');
 
 server.route({
   method: 'GET',
